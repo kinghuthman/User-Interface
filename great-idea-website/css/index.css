@@ -59,8 +59,42 @@ html, body {
 
 h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
-    letter-spacing: 1px;
-    margin-bottom: 15px;
+    letter-spacing: 5px;
+	margin-bottom: 15px;
+	
 }
 
 /* Your code starts here! */
+
+.navigation nav a{
+	color: Black;
+	font-size: 20px;
+	display: inline-block;
+	width: 100px;
+	height: 10px;
+	padding: 20px;
+	text-align: center;
+	box-sizing: border-box;
+	margin-top: 0px;
+	text-decoration: none;
+}
+
+
+	
+
+
+.top div{
+	text-align: center;
+	display: inline-block;
+	width: 150px;
+	height: 10px;
+	font-size: 50px;
+	margin: 50px
+}
+
+.top img{
+	display: inline-block;
+	box-sizing: border-box;
+	position: right;
+	
+}
