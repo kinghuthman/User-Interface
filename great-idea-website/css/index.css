@@ -59,42 +59,117 @@ html, body {
 
 h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
-    letter-spacing: 5px;
+    letter-spacing: 1px;
 	margin-bottom: 15px;
 	
 }
 
 /* Your code starts here! */
 
-.navigation nav a{
-	color: Black;
-	font-size: 20px;
+section, img.middle-img, address, header{
+	margin-bottom: 40px;
+}
+	
+div {
 	display: inline-block;
-	width: 100px;
-	height: 10px;
-	padding: 20px;
+}
+
+.navigation{
+	max-width: 900px;
+	margin: auto;
+}
+
+header nav{
+	display: inline-block;
+	margin-right: 20px;
+	padding: 40px 0;
+	width: 76%;
+}
+
+header nav label{
+	margin-right: 20px;
+	color: grey;
+	cursor: pointer;
+}
+
+header image{
+	vertical-align: middle;
+}
+
+header nav label:hover {
+	color: black);
+}
+.innovation{
+	padding-bottom: 80px;
+	border-bottom: 1px solid black;
+
+}
+
+.innovation div{
+	display:inline-block;
 	text-align: center;
-	box-sizing: border-box;
-	margin-top: 0px;
+	width: 50%;
+	padding-top: 50px;
+}
+
+.innovation img{
+	vertical-align: top;
+}
+
+.innovation a{
+	padding: 5px 45px;
+	color: black;
+	border: 1 px solid black;
 	text-decoration: none;
+
 }
 
+.innovation a:hover{
+	background-color: grey;
+}
 
-	
+h1 {
+	font-size: 60px;
+	margin-bottom: 20px;
+}
 
+.top-content div{
+	width: 49%;
+}
 
-.top div{
+.top-content div:first-child {
+	margin-right: 1%
+}
+
+img.middle-img {
+	display: block;
+}
+
+.middle-content {
+	border-bottom: 1px solid black;
+}
+
+.middle-content div{
+	width: 33%;
+	padding-bottom: 40px;
+}
+
+address p{
+	padding-bottom: 20px;
+
+}
+
+address p a{
+	text-decoration: none;
+	color: black;
+}
+
+address p a:hover{
+	color: grey;
+}
+
+footer {
 	text-align: center;
-	display: inline-block;
-	width: 150px;
-	height: 10px;
-	font-size: 50px;
-	margin: 50px
-}
-
-.top img{
-	display: inline-block;
-	box-sizing: border-box;
-	position: right;
-	
+	margin: 50px;
+	font-size:13px;
 }
